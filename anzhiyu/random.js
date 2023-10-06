@@ -1,1 +1,1 @@
-var posts=["2023/08/28/hello-world/","2023/05/23/14.Postman汉化教程/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["posts/5205e42b/","posts/993b8c1a/","posts/3a65933b/","posts/688b9307/","posts/f9652d8f/","posts/94722/","posts/ac701fa2/","posts/8042f148/","posts/75884ae0/","posts/36436/","posts/3044f11e/","posts/3b43e263/","posts/3ff382cd/","posts/9fc978a2/","posts/f0e131fd/","posts/6edb5512/","posts/62b41ced/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};

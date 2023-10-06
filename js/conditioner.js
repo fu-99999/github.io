@@ -3622,10 +3622,9 @@ var __defProp = Object.defineProperty,
             ],
             ["__scopeId", "data-v-1643928e"]
         ]),
-        // TODU
-        Yr = "https://anzhiy.cn",
-        Xr = "anzhiyu",
-        Qr = "https://github.com/anzhiyu-c/air-conditioner-vue",
+        Yr = "https://wind-of-grace.gitee.io",
+        Xr = "The other wind",
+        Qr = "https://github.com/fu-99999/air-conditioner-vue",
         ta = {
             "class": "copyright-box"
         },
@@ -3635,7 +3634,6 @@ var __defProp = Object.defineProperty,
         na = ["href"],
         ia = (t => (We("data-v-13c379f0"), t = t(), qe(), t))((() => Li("a", {
             "class": "copyright-p-1-1",
-            // TODU 后续修改
             href: "",
             target: "_blank",
             rel: "noreferrer"
@@ -3649,7 +3647,7 @@ var __defProp = Object.defineProperty,
                 href: Qr,
                 target: "_blank",
                 rel: "noreferrer"
-            }, "AnZhiYu Air Conditioner", 8, na), ia, Li("a", {
+            }, "Wind Of Grace Air Conditioner", 8, na), ia, Li("a", {
                 href: Yr,
                 target: "_blank",
                 rel: "noreferrer"
