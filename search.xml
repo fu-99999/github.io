@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>IntelliJ IDEA 如何优雅的添加文档注释</title>
+      <link href="/posts/8bbb8f5d/"/>
+      <url>/posts/8bbb8f5d/</url>
+      
+        <content type="html"><![CDATA[<p>在日常的开发中，最常用的注释就是 <strong>类注释</strong> 和 <strong>方法注释</strong> ，分别为类和方法添加描述信息，日期，作者等，增强代码的可读性，方便日后维护。但是项目中都会有很多的类和方法，手动依次添加过于麻烦。下面就介绍下如何高效，便捷的添加这些注释。</p><p><img src="/img/article/2023_11/1109/01.jpg"></p><h3 id="类注释"><a href="#类注释" class="headerlink" title="类注释"></a>类注释</h3><p>在IDEA中，依次选择 <strong>File &gt; Setting &gt; Editor &gt; File and Code Templates &gt; Files &gt; Class</strong> 编辑栏中看到的是类的默认模板，把自己模板添加到里面 <strong><span class='p green'>(绿色框内容是博主的模板)</span></strong> <strong><span class='p red'>注意:不要把原来的信息覆盖。</span></strong></p><p><img src="/img/article/2023_11/1109/02.jpg"></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Author</span>:     wind-of-grace</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Description</span>:  TODO  </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Date</span>:    $&#123;DATE&#125; $&#123;TIME&#125;</span></span><br><span class="line"><span class="comment"> */</span> </span><br></pre></td></tr></table></figure><p>想要一次性为所有的文件都应用上模板，选择 <strong>Files</strong> 旁边的 <strong>Includes</strong> , 在 <strong>File Header</strong> 的编辑栏里添加自己的模板即可。</p><p><img src="/img/article/2023_11/1109/03.jpg"></p><div class="note blue anzhiyufont anzhiyu-icon-bullhorn simple"><p>其它类型的文件可根据自己的需要进行修改。 <strong>${}</strong>  中的值代表变量，下面是支持的变量</p></div><table><thead><tr><th align="center">变量名</th><th align="center">含义</th></tr></thead><tbody><tr><td align="center">${PACKAGE_NAME}</td><td align="center">当前新建文件的包名</td></tr><tr><td align="center">${NAME}</td><td align="center">新建文件时指定的文件名</td></tr><tr><td align="center">${USER}</td><td align="center">当前登录用户昵称</td></tr><tr><td align="center">${DATE}</td><td align="center">当前系统日期</td></tr><tr><td align="center">${TIME}</td><td align="center">当前系统时间</td></tr><tr><td align="center">${YEAR}</td><td align="center">当前系统年份</td></tr><tr><td align="center">${MONTH}</td><td align="center">当前系统月份</td></tr><tr><td align="center">${MONTH_NAME_SHORT}</td><td align="center">当前系统月份缩写（Jan、Feb…）</td></tr><tr><td align="center">${MONTH_NAME_FULL}</td><td align="center">当前系统月份全拼 (January, February…)</td></tr><tr><td align="center">${DAY}</td><td align="center">当前系统日份</td></tr><tr><td align="center">${HOUR}</td><td align="center">当前系统时间（时）</td></tr><tr><td align="center">${MINUTE}</td><td align="center">当前系统时间（分）</td></tr><tr><td align="center">${PROJECT_NAME}</td><td align="center">项目名称</td></tr></tbody></table><h3 id="方法注释"><a href="#方法注释" class="headerlink" title="方法注释"></a>方法注释</h3><p>方法注释没有系统默认模板，需要通过 <strong>自定义用户模板</strong> 进行快捷添加。<br>在IDEA中，依次选择 <strong>File &gt; Setting &gt; Editor &gt; Live Templates</strong>，点击右上角 <strong>+</strong> ，选择 <strong>Templates Group</strong> 创建一个新的自定义组 在点击加号选 <strong>Live Template</strong>，创建一个用户自定义模板。<br>根据需要填写快捷键，描述等信息 <strong><span class='p green'>(绿色框内容是博主的模板)</span></strong><br><img src="/img/article/2023_11/1109/04.jpg"></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">*</span><br><span class="line"> * <span class="meta">@Author</span> wind-of-grace</span><br><span class="line"> * <span class="meta">@Date</span> $date$ $time$</span><br><span class="line"> * <span class="meta">@Description</span> $context$</span><br><span class="line"> * <span class="meta">@Param</span> $param$</span><br><span class="line"> * <span class="meta">@Return</span> $<span class="keyword">return</span>$</span><br><span class="line"> */</span><br></pre></td></tr></table></figure><p>模板中的变量使用 <strong>“$$”</strong> 包裹，可以在 <strong>Edit Variables</strong> 中进行编辑<br><img src="/img/article/2023_11/1109/05.jpg"></p><p>然后把注释的作用域选择为所有 <strong>JAVA</strong> 文件<br><img src="/img/article/2023_11/1109/06.jpg"></p><p>最后在需要加注释的方法上输入 &#x2F;*s <strong>(这里的s为刚才Abbreviation中填写的值，博主刚才填写的是s)</strong> 回车 方法注释将自动生成。<br><img src="/img/article/2023_11/1109/07.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 后端开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 后端 </tag>
+            
+            <tag> 开发工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mybatis使用@Select条件过滤查询</title>
       <link href="/posts/3e6a0ed1/"/>
       <url>/posts/3e6a0ed1/</url>
