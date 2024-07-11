@@ -6181,6 +6181,16 @@ body[data-type='about'] #web_bg {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
+.equipment-item .equipment-item-content .equipment-item-content-item .equipment-item-content-item-date {
+  font-size: 12px;
+  color: var(--anzhiyu-secondtext);
+  line-height: 16px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
 .equipment-item .equipment-item-content .equipment-item-content-item .equipment-item-content-item-description {
   line-height: 20px;
   color: var(--anzhiyu-secondtext);
