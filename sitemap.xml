@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.blog-wind-of-grace.cn/equipment/index.html</loc>
+    
+    <lastmod>2024-07-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.blog-wind-of-grace.cn/posts/60ce4f0/</loc>
+    
+    <lastmod>2024-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.blog-wind-of-grace.cn/posts/5205e42b/</loc>
     
     <lastmod>2024-07-18</lastmod>
@@ -344,15 +362,6 @@
   </url>
   
   <url>
-    <loc>https://www.blog-wind-of-grace.cn/equipment/index.html</loc>
-    
-    <lastmod>2023-08-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.blog-wind-of-grace.cn/json/music.json</loc>
     
     <lastmod>2023-08-24</lastmod>
@@ -526,162 +535,169 @@
 
   <url>
     <loc>https://www.blog-wind-of-grace.cn/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://www.blog-wind-of-grace.cn/tags/WA/</loc>
+    <lastmod>2024-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E5%90%8E%E7%AB%AF/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E9%AD%94%E5%85%BD/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/WLK/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/vpn/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E5%AE%8F%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/Hexo/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/JSON/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E6%97%A5%E5%B8%B8%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E6%B8%B8%E6%88%8F%E6%94%BB%E7%95%A5/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E6%B8%B8%E6%88%8F%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/Linux/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/MySQL/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/WA%E5%AD%97%E7%AC%A6%E4%B8%B2/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/mybatis/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/JAVA%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/RabbitMQ/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/%E5%8D%83%E5%A5%87%E7%99%BE%E6%80%AA%E7%9A%84%E6%BC%AB%E9%95%BF%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/SpringBoot/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/tags/mybatis-plus/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -690,21 +706,21 @@
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blog-wind-of-grace.cn/categories/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C/</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
